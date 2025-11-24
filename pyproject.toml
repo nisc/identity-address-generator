@@ -1,0 +1,25 @@
+[project]
+name = "identity-address-generator"
+version = "1.0.0"
+description = "Generate synthetic test data with real US addresses for testing and research"
+requires-python = ">=3.8"
+dependencies = [
+    "faker>=20.0.0",
+    "geopy>=2.4.0",
+    "us>=2.0.0",
+]
+
+[tool.black]
+line-length = 90
+
+[tool.ruff]
+line-length = 90
+
+[tool.ruff.lint]
+ignore = ["E501"]  # Line too long
+
+[tool.ruff.lint.per-file-ignores]
+"generate.py" = ["E501"]  # Ignore line length
+
+[tool.pylint.format]
+max-line-length = 90

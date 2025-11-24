@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Cache file (auto-generated, don't commit)
+.cache.json
+
+# macOS
+.DS_Store
