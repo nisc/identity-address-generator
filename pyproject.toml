@@ -3,6 +3,7 @@ name = "identity-address-generator"
 version = "1.0.0"
 description = "Generate synthetic test data with real US addresses for testing and research"
 requires-python = ">=3.8"
+license = {text = "MIT"}
 dependencies = [
     "faker>=20.0.0",
     "geopy>=2.4.0",
